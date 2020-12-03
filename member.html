@@ -13,15 +13,16 @@
 </head>
 
 <body>
-  <header class="header">
+  <div class="header">
     <div class="container-fluid container-md">
       <nav class="navbar navbar-expand-md navbar-light bg-light py-lg-1 ">
         <h1 class="ml-5 ml-md-0"><a class="navbar-brand logo" href="index.html">d’Perfume</a></h1>
         <div class="phone-menu d-lg-none d-flex align-items-center">
-          <a class="d-md-none px-1 py-3" href="#">
-            <span class="material-icons cart text-secondary-light">
+          <a class="cart d-md-none px-1 py-3 mr-1" href="#">
+            <span class="material-icons text-secondary-light">
               shopping_cart
             </span>
+            <span class="badge badge-pill badge-primary">3</span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse"   data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -69,7 +70,7 @@
         </div>
       </nav>
     </div>
-  </header>
+  </div>
 
   
 <!-- product nav -->
@@ -123,27 +124,19 @@
         會員編號
         <span class="h5-m-xs text-info-light ml-1">T00020080615</span>
       </h3>
-      <div class="row h6 mb-4">
-        <div class="col-4 col-lg-5 col-xl-4">購物車</div>
-        <div class="col-8 col-lg-7 col-xl-8">56</div>
-      </div>
-      <div class="row h6 mb-4">
-        <div class="col-4 col-lg-5 col-xl-4">我的收藏</div>
-        <div class="col-8 col-lg-7 col-xl-8">23</div>
-      </div>
-      <div class="row h6 mb-4">
-        <div class="col-4 col-lg-5 col-xl-4">完成訂單</div>
-        <div class="col-8 col-lg-7 col-xl-8">8</div>
-      </div>
-      <div class="row h6 mb-4">
-        <div class="col-4 col-lg-5 col-xl-4">會員紅利</div>
-        <div class="col-8 col-lg-7 col-xl-8">2680</div>
-      </div>
-      <div class="row h6">
-        <div class="col-4 col-lg-5 col-xl-4">邀請碼</div>
-        <div class="col-8 col-lg-7 col-xl-8">TK2075</div>
-      </div>
-      <p class="h7 text-point-light">新戶輸入邀請碼即可獲贈紅利點數1000點</p>
+      <ul class="row h6">
+          <li class="col-4 col-lg-5 col-xl-4 mb-4">購物車</li>
+          <li class="col-8 col-lg-7 col-xl-8 mb-4">56</li>
+          <li class="col-4 col-lg-5 col-xl-4 mb-4">我的收藏</li>
+          <li class="col-8 col-lg-7 col-xl-8 mb-4">23</li>
+          <li class="col-4 col-lg-5 col-xl-4 mb-4">完成訂單</li>
+          <li class="col-8 col-lg-7 col-xl-8 mb-4">8</li>
+          <li class="col-4 col-lg-5 col-xl-4 mb-4">會員紅利</li>
+          <li class="col-8 col-lg-7 col-xl-8 mb-4">2680</li>
+          <li class="col-4 col-lg-5 col-xl-4">邀請碼</li>
+          <li class="col-8 col-lg-7 col-xl-8">TK2075</li>
+      </ul>
+      <p class="hxs text-point-light">新戶輸入邀請碼即可獲贈紅利點數1000點</p>
     </div>
 
     <!-- 資料修改 -->
@@ -186,7 +179,7 @@
             </div>
           </div>
           <div class="form-group row no-gutters" data-aos="fade-up">
-            <label for="contactAddress" class="col-3 col-form-label member-label">聯絡地址</label>
+            <label for="contactAddress-country" class="col-3 col-form-label member-label">聯絡地址</label>
             <div class="col-9">
               <div class="form-row no-gutters mb-2">
                 <div class="col-sm-6">
@@ -226,7 +219,7 @@
             </div>
           </div>
           <div class="form-group row no-gutters" data-aos="fade-up">
-            <label for="reciveAddress" class="col-3 col-form-label member-label">配送地址</label>
+            <label for="reciveAddress-country" class="col-3 col-form-label member-label">配送地址</label>
             <div class="col-9">
               <div class="form-row no-gutters mb-2">
                 <div class="col-sm-6">
@@ -314,7 +307,7 @@
       <div class="container justify-content-center justify-content-lg-between">
         <div class="d-flex align-items-center">
           <h4 class="mr-6 mr-lg-5"><a class="navbar-brand logo" href="index.html">d’Perfume</a></h1>
-          <p class="h7-m text-light">© 2020. All Rights Reserved.</p>
+          <h5 class="hxs-m text-light">© 2020. All Rights Reserved.</h5>
         </div>
         <div class="d-none d-lg-block">
           <ul class="navbar-nav">

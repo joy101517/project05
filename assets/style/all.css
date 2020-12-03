@@ -249,7 +249,7 @@ ol,
 ul,
 dl {
   margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 0; }
 
 ol ol,
 ul ul,
@@ -3241,7 +3241,7 @@ textarea.form-control {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 2px 4px; }
+  padding: 2px 0; }
   .navbar .container,
   .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl {
     display: -webkit-box;
@@ -11485,15 +11485,15 @@ a.text-dark:hover, a.text-dark:focus {
     line-height: 1.5;
     font-weight: 600; }
 
-.h7 {
+.hxs {
   font-size: 0.875rem;
   line-height: 1.5;
   font-weight: 400; }
-  .h7-m {
+  .hxs-m {
     font-size: 0.875rem;
     line-height: 1.5;
     font-weight: 500; }
-    .h7-m-xs {
+    .hxs-m-xs {
       font-size: 0.875rem;
       font-weight: 500;
       line-height: 1.2; }
@@ -11697,20 +11697,13 @@ a {
 
 .cart {
   position: relative; }
-  .cart::after {
-    content: '3';
-    display: block;
-    width: 16px;
-    height: 13px;
-    border-radius: 7px;
-    background-color: #916019;
-    position: absolute;
-    color: #FFFFFF;
-    top: -2px;
-    right: -10px;
-    font-size: 12px;
-    line-height: 1.2;
-    text-align: center; }
+
+.badge {
+  position: absolute;
+  top: 5px;
+  right: -10px;
+  font-size: 12px;
+  line-height: 1.2; }
 
 .navbar-collapse {
   -webkit-box-flex: 0;

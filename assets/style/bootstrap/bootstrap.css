@@ -119,7 +119,7 @@ ol,
 ul,
 dl {
   margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 0; }
 
 ol ol,
 ul ul,
@@ -3111,7 +3111,7 @@ textarea.form-control {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 2px 4px; }
+  padding: 2px 0; }
   .navbar .container,
   .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl {
     display: -webkit-box;
