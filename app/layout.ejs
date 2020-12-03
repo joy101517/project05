@@ -13,15 +13,16 @@
 </head>
 
 <body>
-  <header class="header">
+  <div class="header">
     <div class="container-fluid container-md">
       <nav class="navbar navbar-expand-md navbar-light bg-light py-lg-1 ">
         <h1 class="ml-5 ml-md-0"><a class="navbar-brand logo" href="index.html">d’Perfume</a></h1>
         <div class="phone-menu d-lg-none d-flex align-items-center">
-          <a class="d-md-none px-1 py-3" href="#">
-            <span class="material-icons cart text-secondary-light">
+          <a class="cart d-md-none px-1 py-3 mr-1" href="#">
+            <span class="material-icons text-secondary-light">
               shopping_cart
             </span>
+            <span class="badge badge-pill badge-primary">3</span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse"   data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -69,7 +70,7 @@
         </div>
       </nav>
     </div>
-  </header>
+  </div>
 
   <%- contents %>
 
@@ -78,7 +79,7 @@
       <div class="container justify-content-center justify-content-lg-between">
         <div class="d-flex align-items-center">
           <h4 class="mr-6 mr-lg-5"><a class="navbar-brand logo" href="index.html">d’Perfume</a></h1>
-          <p class="h7-m text-light">© 2020. All Rights Reserved.</p>
+          <h5 class="hxs-m text-light">© 2020. All Rights Reserved.</h5>
         </div>
         <div class="d-none d-lg-block">
           <ul class="navbar-nav">

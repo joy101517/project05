@@ -50,22 +50,14 @@
 
 .cart {
   position: relative;
+}
 
-  &::after {
-    content: '3';
-    display: block;
-    width: 16px;
-    height: 13px;
-    border-radius: 7px;
-    background-color: $primary;
-    position: absolute;
-    color: $light;
-    top: -2px;
-    right: -10px;
-    font-size: 12px;
-    line-height: 1.2;
-    text-align: center;
-  }
+.badge {
+  position: absolute;
+  top: 5px;
+  right: -10px;
+  font-size: 12px;
+  line-height: 1.2;
 }
 
 .navbar-collapse {
